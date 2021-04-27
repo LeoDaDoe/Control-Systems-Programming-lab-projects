@@ -7,7 +7,8 @@
 * [Assignments](#assignments)
 
 ## General info
-Repo dedicated to tracking lab assignments of the Control Systems Programming module
+Repo dedicated to tracking lab assignments of the Control Systems Programming module.
+Lab_XXX\Core\Src\main.c is where most of the code was written.
 	
 ## Technologies:
 * [Clion 2020.3.2](https://www.jetbrains.com/clion/)
