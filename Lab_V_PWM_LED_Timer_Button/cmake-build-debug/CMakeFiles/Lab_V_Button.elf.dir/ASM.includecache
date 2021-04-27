@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+L:/University/Control_Systems_Programming/Code/Lab_V_PWM_LED_Timer_Button/Core/Startup/startup_stm32f407vgtx.s
+

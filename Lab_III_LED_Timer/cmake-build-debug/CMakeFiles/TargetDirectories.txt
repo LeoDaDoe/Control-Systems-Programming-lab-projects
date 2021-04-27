@@ -1,0 +1,3 @@
+L:/University/Control_Systems_Programming/Code/Lab_III_LED_Timer/cmake-build-debug/CMakeFiles/Lab_III_Timer.elf.dir
+L:/University/Control_Systems_Programming/Code/Lab_III_LED_Timer/cmake-build-debug/CMakeFiles/edit_cache.dir
+L:/University/Control_Systems_Programming/Code/Lab_III_LED_Timer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

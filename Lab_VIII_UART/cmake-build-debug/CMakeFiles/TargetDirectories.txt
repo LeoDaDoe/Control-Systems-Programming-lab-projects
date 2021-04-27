@@ -1,0 +1,3 @@
+L:/University/Control_Systems_Programming/Code/Lab_VIII_UART/cmake-build-debug/CMakeFiles/edit_cache.dir
+L:/University/Control_Systems_Programming/Code/Lab_VIII_UART/cmake-build-debug/CMakeFiles/Lab_VIII_UART.elf.dir
+L:/University/Control_Systems_Programming/Code/Lab_VIII_UART/cmake-build-debug/CMakeFiles/rebuild_cache.dir
