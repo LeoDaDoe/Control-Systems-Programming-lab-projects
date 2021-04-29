@@ -8,6 +8,9 @@
 
 ## General info
 Repo dedicated to tracking lab assignments of the Control Systems Programming module.
+
+A [STM32F407VG](https://www.st.com/en/evaluation-tools/stm32f4discovery.html) board was used during development.
+
 Lab_XXX\Core\Src\main.c is where most of the code was written.
 	
 ## Technologies:
