@@ -10,9 +10,9 @@ void SystemClock_Config(void);
 
 void InitializeTimer() {
             __TIM4_CLK_ENABLE();
-    s_TimerInstance.Init.Prescaler = 500;
+    s_TimerInstance.Init.Prescaler = 25000;
     s_TimerInstance.Init.CounterMode = TIM_COUNTERMODE_UP;
-    s_TimerInstance.Init.Period = 4000;
+    s_TimerInstance.Init.Period = 2000;
     s_TimerInstance.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     s_TimerInstance.Init.RepetitionCounter = 0;
     HAL_TIM_Base_Init(&s_TimerInstance);
@@ -51,7 +51,7 @@ int main(void) {
     while (1) {
 
         int timerValue = __HAL_TIM_GET_COUNTER(&s_TimerInstance);
-        if (timerValue == 500) { HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET); };
+        if (timerValue == 1) { HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET); };
         if (timerValue == 1000) { HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_RESET); };
        //HAL_Delay(1);
         //printf("%d\n",timerValue);
